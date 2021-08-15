@@ -48,6 +48,7 @@
 
 #pragma omp end declare variant
 
+#ifdef __AMDGCN__
 #pragma omp begin declare variant match(device = {arch(amdgcn)})
 
 #define __OPENMP_AMDGCN__
@@ -55,5 +56,6 @@
 #undef __OPENMP_AMDGCN__
 
 #pragma omp end declare variant
+#endif
 
 #endif
