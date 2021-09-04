@@ -315,6 +315,7 @@
   __interceptor_pthread_create;
   __interceptor_pthread_detach;
   __interceptor_pthread_exit;
+  __interceptor_pthread_getcpuclockid;
   __interceptor_pthread_getname_np;
   __interceptor_pthread_getschedparam;
   __interceptor_pthread_join;
@@ -1583,6 +1584,7 @@
   pthread_create;
   pthread_detach;
   pthread_exit;
+  pthread_getcpuclockid;
   pthread_getname_np;
   pthread_getschedparam;
   pthread_join;

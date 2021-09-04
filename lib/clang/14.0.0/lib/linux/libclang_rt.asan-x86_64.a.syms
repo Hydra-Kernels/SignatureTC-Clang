@@ -273,6 +273,7 @@
   __interceptor_pthread_condattr_getclock;
   __interceptor_pthread_condattr_getpshared;
   __interceptor_pthread_create;
+  __interceptor_pthread_getcpuclockid;
   __interceptor_pthread_getname_np;
   __interceptor_pthread_getschedparam;
   __interceptor_pthread_join;
@@ -1459,6 +1460,7 @@
   pthread_condattr_getclock;
   pthread_condattr_getpshared;
   pthread_create;
+  pthread_getcpuclockid;
   pthread_getname_np;
   pthread_getschedparam;
   pthread_join;
